@@ -22,7 +22,7 @@ export default () => {
   };
 
   useEffect(() => {
-    searchAPI("gyro");
+    searchAPI("fast food");
   }, []);
 
   return [searchAPI, results, errorMessage];
